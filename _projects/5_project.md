@@ -1,9 +1,9 @@
 ---
 layout: page
 title: intellistocks.ai
-description: A social media activity focused data hub for investors. Developed during employment at Big Byte Insights.
-img: "https://intellistocks.ai/static/media/white_logo.77b45036.svg"
+description: A social media activity focused data hub for investors. Developed during employment at Big Data Analytics.
+img: assets/img/intellistocks.png
 importance: 1
 category: professional
-link: "https://intellistocks.ai"
+redirect: "https://intellistocks.ai"
 ---

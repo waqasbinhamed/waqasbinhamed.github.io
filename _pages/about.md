@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Not all those who wander are lost. - Tolkien
+# subtitle: Not all those who wander are lost. - Tolkien
 
 profile:
   align: right
@@ -19,6 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my portfolio! I'm a seasoned Data Scientist, with a graduate degree in mathematics and almost 2 years of professional experience. My experiences range from developing machine learning and AI algorithms, architecturing cloud infrastructures to creating insightful dashboards. Check out my work or get in touch - I'd love to connect!
+Welcome to my portfolio! I'm a seasoned Data Scientist, with a graduate degree in mathematics and 2 years of professional experience. My experiences range from developing machine learning algorithms, architecturing cloud infrastructures to creating insightful dashboards. Check out my work or get in touch - I'd love to connect!
 
 Currently working on extending my master's research project and publishing a conference paper.

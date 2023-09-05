@@ -4,7 +4,7 @@
     - name: Full Name
       value: Waqas Bin Hamed
     - name: Location
-      value: Waterloo, ON
+      value: Toronto, ON
     - name: Languages
       value: English, Urdu, Punjabi
 
@@ -12,7 +12,7 @@
   type: list
   contents:
     - "Programming languages: Python, SQL, MATLAB, R, C, Java"
-    - "Programming frameworks and tools: Linux, Docker, Git, QlikView, Tableau, Google Cloud Platform, AWS"
+    - "Programming frameworks and tools: Linux, Git, Google Cloud Platform, AWS, Docker, Git, QlikView, Tableau"
     - "Other skills: LaTeX, Microsoft Office (Work, Excel, Powerpoint), AutoCAD"
 
 - title: Experience
@@ -41,12 +41,6 @@
       institution: Big Byte Insights
       year: 07/2020 - 08/2021
 
-- title: Certifications
-  type: time_table
-  contents:
-    - title: AWS Cloud Computing Practioner
-      year: 2022
-
 - title: Education
   type: time_table
   contents:
@@ -73,6 +67,11 @@
         - Middle East Technical University (METU) Dean's Honor List Award
         - Graduated with 2nd highest GPA in METU Environmental Engineering Department
 
+- title: Certifications
+  type: time_table
+  contents:
+    - title: AWS Cloud Computing Practioner
+      year: 2022
 
 # - title: Academic Interests
 #   type: nested_list
