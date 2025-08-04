@@ -1,58 +1,49 @@
 ---
-layout: page
-title: Projects
+layout: single
+title: "Projects"
 permalink: /projects/
-description: A collection of my programming projects.
-nav: true
-nav_order: 3
-display_categories: [personal & academic, professional]
-horizontal: true
+author_profile: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-1">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+## Personal & Academic Projects
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
+### Sum-of-norms regularized Nonnegative Matrix Factorization
+
+Implementation and experimental code for the paper "Sum-of-norms regularized Nonnegative Matrix Factorization".
+
+The method addresses a fundamental challenge in NMF: automatically determining the correct rank (number of components) without prior knowledge. SONNMF uses sum-of-norms (SON) regularization to encourage pairwise similarity between factor columns, enabling automatic rank discovery by starting with an overestimated rank and reducing it during optimization.
+
+[GitHub Repository](https://github.com/waqasbinhamed/sonnmf) | [Paper](https://arxiv.org/abs/2407.00706) 
+
+---
+
+### Nonnegative Unimodal Matrix Factorization
+
+Python implementation of Nonnegative Unimodal Matrix Factorization (NuMF), an NMF method that enforces unimodality constraints. NuMF is particularly useful for applications where the underlying data is expected to have a single peak (unimodal structure) and nonnegative values, such as in signal processing, bioinformatics, and chemometrics.
+
+The implementation is based on the [Nonnegative Unimodal Matrix Factorization](https://ieeexplore.ieee.org/iel7/9413349/9413350/09414631.pdf) research paper.
+
+[GitHub Repository](https://github.com/waqasbinhamed/numf) 
+
+---
+
+## Professional Projects
+
+*Projects completed during employment where I made key contributions.*
+
+### [SYMX.AI X.Parts](https://symx.ai/product/xparts/)
+
+**Organization:** SYMX.AI (formerly Symboticware)
+
+An NLP system that transforms free-text maintenance logs into structured data, enabling fleet-wide analysis to reduce fuel costs and equipment downtime.
+
+*My Contributions:* Developed the initial proof of concept, evaluated LLM models and selected the appropriate one, curated a domain-specific dataset for training, and built the first extraction algorithm.
+
+---
+
+### [Intellistocks.ai](https://intellistocks.ai/)
+
+**Organization:** Big Byte Insights
+A financial analytics platform that applied NLP and predictive modeling to extract investment signals from social media activity and financial documents, including earnings calls and quarterly reports.
+
+*My Contributions:* Led core development efforts, trained sentiment analysis and named entity recognition (NER) models for text data, and contributed to designing the project’s data architecture.
