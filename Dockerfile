@@ -1,35 +1,26 @@
-FROM bitnami/minideb:latest
-Label MAINTAINER Amir Pourmand
-RUN apt-get update -y
+FROM ruby:3.2-alpine
 
-# add locale
-RUN apt-get -y install locales
-# Set the locale
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US:en
-ENV LC_ALL en_US.UTF-8
+# Install dependencies
+RUN apk add --no-cache \
+    build-base \
+    git \
+    nodejs \
+    npm
 
-# add ruby and jekyll
-RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
-RUN apt-get install imagemagick -y
+# Set the working directory
+WORKDIR /app
 
-# install python3 and jupyter
-RUN apt-get install python3-pip -y
-RUN python3 -m pip install jupyter --break-system-packages
+# Copy Gemfile and Gemfile.lock
+COPY Gemfile* ./
 
-# clean everything
-RUN apt-get clean \
-    && rm -rf /var/lib/apt/lists/
-RUN pip3 cache purge
-
-# ENV GEM_HOME='root/gems' \
-#     PATH="root/gems/bin:${PATH}"
-
-# install jekyll and dependencies
-RUN gem install jekyll bundler
-RUN mkdir /srv/jekyll
-ADD Gemfile /srv/jekyll
-WORKDIR /srv/jekyll
+# Install gems
 RUN bundle install
+
+# Copy the rest of the application
+COPY . .
+
+# Expose port 4000
+EXPOSE 4000
+
+# Start Jekyll with live reload and host binding for Docker
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--force_polling"]
