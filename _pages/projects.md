@@ -24,26 +24,6 @@ Python implementation of Nonnegative Unimodal Matrix Factorization (NuMF), an NM
 The implementation is based on the [Nonnegative Unimodal Matrix Factorization](https://ieeexplore.ieee.org/iel7/9413349/9413350/09414631.pdf) research paper.
 
 [GitHub Repository](https://github.com/waqasbinhamed/numf) 
-<!-- ---
-
-### Duplicate Question Detection
-**Duration:** 2021  
-**Role:** Primary Researcher  
-**Technologies:** Python, NLP, Transformers, PyTorch
-
-Developed an NLP algorithm using novel augmentation approach for detecting duplicate questions on Quora dataset. Achieved higher scores than State-of-the-Art models through innovative data augmentation techniques.
-
-
----
-
-### Kaggle PawPularity Contest
-**Duration:** 2021  
-**Role:** Team Member (4-person team)  
-**Technologies:** Python, Transformers, Computer Vision, PyTorch
-
-Trained a transformer model to predict likeability of pets based on images. Achieved bronze ranking in Kaggle competition. Collaborated with 3 other students on model architecture and training strategies.
-
-[GitHub Repository](https://github.com/ofarrelle/stat441-final-project) | [Competition](https://www.kaggle.com/c/petfinder-pawpularity-score) -->
 
 ---
 
