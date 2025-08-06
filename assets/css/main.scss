@@ -1,0 +1,84 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom font size overrides */
+html {
+  font-size: 14px; // Reduced from default 16px
+  
+  @include breakpoint($medium) {
+    font-size: 16px; // Reduced from default 18px
+  }
+
+  @include breakpoint($large) {
+    font-size: 17px; // Reduced from default 20px
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // Reduced from default 22px
+  }
+}
+
+/* Reduce body text size */
+body {
+  font-size: 0.9em; // 90% of the base font size
+}
+
+/* Reduce heading sizes */
+h1 {
+  font-size: 1.8em; // Reduced from default
+}
+
+h2 {
+  font-size: 1.4em; // Reduced from default
+}
+
+h3 {
+  font-size: 1.2em; // Reduced from default
+}
+
+h4 {
+  font-size: 1.1em; // Reduced from default
+}
+
+h5 {
+  font-size: 1.0em; // Reduced from default
+}
+
+h6 {
+  font-size: 0.9em; // Reduced from default
+}
+
+// /* Reduce author profile font sizes */
+// .author__bio {
+//   font-size: 0.85em;
+// }
+
+// .author__name {
+//   font-size: 1.2em;
+// }
+
+// /* Reduce navigation font size */
+// .greedy-nav a {
+//   font-size: 0.9em;
+// }
+
+// /* Reduce content font sizes */
+// .page__content {
+//   font-size: 0.9em;
+// }
+
+// /* Reduce list font sizes */
+// ul, ol {
+//   font-size: 0.9em;
+// }
+
+// /* Reduce blockquote font size */
+// blockquote {
+//   font-size: 0.9em;
+// }
