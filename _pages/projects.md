@@ -7,25 +7,21 @@ author_profile: true
 
 ## Personal & Academic Projects
 
-### Sum-of-norms regularized Nonnegative Matrix Factorization
+### Sum-of-norms regularized Nonnegative Matrix Factorization [[GitHub](https://github.com/waqasbinhamed/sonnmf)] [[Paper](https://arxiv.org/abs/2407.00706)]
 
 Implementation and experimental code for the paper "Sum-of-norms regularized Nonnegative Matrix Factorization".
 
-The method addresses a fundamental challenge in NMF: automatically determining the correct rank (number of components) without prior knowledge. SONNMF uses sum-of-norms (SON) regularization to encourage pairwise similarity between factor columns, enabling automatic rank discovery by starting with an overestimated rank and reducing it during optimization.
-
-[GitHub Repository](https://github.com/waqasbinhamed/sonnmf) | [Paper](https://arxiv.org/abs/2407.00706) 
+The method addresses a fundamental challenge in NMF: automatically determining the correct rank (number of components) without prior knowledge. SONNMF uses sum-of-norms (SON) regularization to encourage pairwise similarity between factor columns, enabling automatic rank discovery by starting with an overestimated rank and reducing it during optimization. 
 
 ---
 
-### Nonnegative Unimodal Matrix Factorization
+### Nonnegative Unimodal Matrix Factorization [[GitHub](https://github.com/waqasbinhamed/numf)]
 
 Python implementation of Nonnegative Unimodal Matrix Factorization (NuMF), an NMF method that enforces unimodality constraints. NuMF is particularly useful for applications where the underlying data is expected to have a single peak (unimodal structure) and nonnegative values, such as in signal processing, bioinformatics, and chemometrics.
 
-The implementation is based on the [Nonnegative Unimodal Matrix Factorization](https://ieeexplore.ieee.org/iel7/9413349/9413350/09414631.pdf) research paper.
+The implementation is based on the [Nonnegative Unimodal Matrix Factorization](https://ieeexplore.ieee.org/iel7/9413349/9413350/09414631.pdf) research paper. 
 
-[GitHub Repository](https://github.com/waqasbinhamed/numf) 
-
----
+<!-- --- -->
 
 ## Professional Projects
 

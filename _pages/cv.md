@@ -7,20 +7,20 @@ author_profile: true
 
 *Academic CV and professional resume available upon request.*
 
----
+<!-- --- -->
 
 ## Education
 
-**Master of Mathematics in Computational Mathematics** (2022)  
+**Master of Mathematics in Computational Mathematics** <span style="float:right">2022</span>  
 University of Waterloo, Waterloo, ON  
 Research Project: *Nonnegative Matrix Factorization with Sum-of-Norms Regularization for Hyperspectral Unmixing*  
 Advisor: Hans De Sterck
 
-**Bachelor of Science in Environmental Engineering** (2020)  
+**Bachelor of Science in Environmental Engineering** <span style="float:right">2020</span>  
 Middle East Technical University, Ankara, Turkey  
 Final Year Project: *Solid Waste Management Plan for Urgup, Turkey*    
 
----
+<!-- --- -->
 
 ## Publications
 
@@ -30,20 +30,20 @@ Ang, A., **Hamed, W.**, & De Sterck, H. (2024). Sum-of-norms regularized Nonnega
 ### Research Projects
 **Hamed, W.** (2022). *Nonnegative Matrix Factorization with Sum-of-Norms Regularization for Hyperspectral Unmixing*. Master's Research Project, University of Waterloo. [PDF](/assets/files/Nonnegative_Matrix_Factorization_with_Sum-of-Norms_Regularization_for_Hyperspectral_Unmixing.pdf)    
 
----
+<!-- --- -->
 
 ## Research Experience
 
-**Graduate Student Researcher** (September 2022 – December 2022)  
+**Graduate Student Researcher** <span style="float:right">September 2022 – December 2022</span>  
 Faculty of Mathematics, University of Waterloo  
 Advisor: Hans De Sterck  
 Project: Sum-of-norms regularized Nonnegative Matrix Factorization
 
----
+<!-- --- -->
 
 ## Teaching Experience
 
-**Teaching Assistant** (September 2021 – April 2022)  
+**Teaching Assistant** <span style="float:right">September 2021 – April 2022</span>  
 Faculty of Mathematics, University of Waterloo  
 *Provided instructional support through office hours, student guidance, and assisted faculty with grading and exam proctoring.*
 - MATH 117 (Calculus 1 for Engineering) – Fall 2021
@@ -51,31 +51,43 @@ Faculty of Mathematics, University of Waterloo
 - MATH 128 (Calculus 2 for the Sciences) – Winter 2022  
 - MATH 138 (Calculus 2 for Honours Mathematics) – Winter 2022
 
----
+<!-- --- -->
 
 ## Professional Experience
 
-**Data Engineer** (June 2024 – Present)  
+**Data Engineer** <span style="float:right">June 2024 – Present</span>  
 The Home Depot, Toronto, ON  
 *Develop GenAI applications and enterprise data pipelines for retail analytics and workforce optimization.*
 
-**Data Scientist** (February 2024 – May 2024)  
+---
+
+
+**Data Scientist** <span style="float:right">February 2024 – May 2024</span>  
 Hyly.AI, Ashburn, VA   
 *Built MLOps infrastructure and GPT-based solutions for real estate marketing automation.*
 
-**Data Science Consultant** (January 2023 – February 2024)  
+---
+
+
+**Data Science Consultant** <span style="float:right">January 2023 – February 2024</span>  
 Self-employed  
 *Delivered AI/ML solutions across edtech, fintech, and customer analytics domains.*
 
-**Data Scientist** (May 2022 – August 2022)  
+---
+
+
+**Data Scientist** <span style="float:right">May 2022 – August 2022</span>  
 SYMX.AI (formerly Symboticware), Sudbury, ON  
 *Developed anomaly detection systems and NLP solutions for industrial IoT applications.*
 
-**Software Engineer** (July 2020 – August 2021)  
+---
+
+
+**Software Engineer** <span style="float:right">July 2020 – August 2021</span>  
 Big Byte Insights, New York, NY  
 *Built financial analytics platform using NLP and predictive modeling for investment insights.*
 
----
+<!-- --- -->
 
 ## Technical Skills
 
@@ -84,12 +96,12 @@ Big Byte Insights, New York, NY
 **Data & Cloud:** Docker, Airflow, Spark, BigQuery, AWS, GCP, Snowflake  
 **Tools:** Git, LaTeX, Jupyter, Linux
 
----
+<!-- --- -->
 
 ## Honors and Awards
 
-- **International Master's Award of Excellence (IMAE)** (2022) - University of Waterloo
-- **Outstanding Teaching Assistant Award** (2022) - University of Waterloo  
-- **Ranked 2nd in Environmental Engineering Department** (2020) - Middle East Technical University
-- **Dean's Honor Roll Award** (2020) - Middle East Technical University
+- University of Waterloo - **International Master's Award of Excellence (IMAE)** <span style="float:right">2022</span>
+- University of Waterloo - **Outstanding Teaching Assistant Award** <span style="float:right">2022</span>  
+- Middle East Technical University - **Ranked 2nd in Environmental Engineering Department** <span style="float:right">2020</span>
+- Middle East Technical University - **Dean's Honor Roll Award** <span style="float:right">2020</span>
 
