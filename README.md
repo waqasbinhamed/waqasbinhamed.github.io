@@ -1,3 +1,3 @@
-# Waqas Hamed - Personal Academic Website
+# Waqas Bin Hamed - Personal Website
 
-A professional academic website built with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) and deployed via GitHub Pages.
+A professional website built with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) and deployed via GitHub Pages.
