@@ -7,11 +7,13 @@ author_profile: true
 
 ## Personal & Side Projects
 
-### Spotify Playlist Organizer
+### Spotify Playlist Organizer &nbsp;[[Live App](https://spotifysorter-1124582946.us-central1.run.app)]
 
-**Stack:** Gemini API, Spotify API, LangChain, Python, fly.io &nbsp;|&nbsp; 2025 – Present
+**Stack:** Gemini API, Spotify API, LangChain, Python, Google Cloud Run &nbsp;|&nbsp; 2025 – Present
 
-An agentic LLM classification pipeline that automatically organizes Spotify libraries by mood and genre. Built with Gemini and LangChain using multi-step reasoning with structured output (JSON schema enforcement) to ensure reliable, consistent categorization. Deployed to fly.io with live user testing.
+An agentic LLM classification pipeline that automatically organizes Spotify libraries by mood and genre. Built with Gemini and LangChain using multi-step reasoning with structured output (JSON schema enforcement) to ensure reliable, consistent categorization. Deployed on Google Cloud Run with live user testing.
+
+> Access is gated via Spotify's developer authorization — [reach out](mailto:waqasbinhamed@gmail.com) to be added as an authorized user.
 
 *Key techniques:* agentic tool use, structured output, prompt engineering, REST API integration, cloud deployment
 

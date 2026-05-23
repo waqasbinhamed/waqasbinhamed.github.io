@@ -40,6 +40,6 @@ header:
 
 ## Recent Highlights
 
-- Engineered an agentic LLM classification system with structured output enforcement, deployed to production on fly.io
+- Engineered an agentic LLM classification system with structured output enforcement, deployed to production on Google Cloud Run
 - Redesigned 150+ SAP-to-GCP pipeline triggers to event-driven execution, eliminating data latency for ML workloads
 - Published in *Neural Computation* (2026): [Sum-of-norms regularized NMF](https://doi.org/10.1162/NECO.a.1482)
