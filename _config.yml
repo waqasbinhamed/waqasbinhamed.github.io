@@ -61,13 +61,10 @@ after_footer_scripts:
 author:
   name   : "Waqas Bin Hamed"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist & ML Engineer | LLM systems · production ML · scalable data pipelines | 4+ years in industry | MMath, University of Waterloo"
+  bio    : "Currently building data pipelines and ML systems at The Home Depot. Computational math background from Waterloo — I care about how algorithms work, not just that they do."
   location: "Toronto, ON"
   email: "waqasbinhamed@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:waqasbinhamed@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/waqasbinhamed"

@@ -7,6 +7,16 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* ========== Hero gradient ========== */
+.page__hero--overlay {
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b3a4a 55%, #1b2631 100%) !important;
+}
+
+/* ========== Hide author name in sidebar (already in masthead) ========== */
+.author__name {
+  display: none;
+}
+
 /* ========== Dark mode toggle button ========== */
 .dark-mode-toggle {
   background: none;
