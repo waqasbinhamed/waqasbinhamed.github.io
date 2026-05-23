@@ -5,41 +5,54 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Personal & Academic Projects
+## Personal & Side Projects
 
-### Sum-of-norms regularized Nonnegative Matrix Factorization [[GitHub](https://github.com/waqasbinhamed/sonnmf)] [[Paper](https://arxiv.org/abs/2407.00706)]
+### Spotify Playlist Organizer
 
-Implementation and experimental code for the paper "Sum-of-norms regularized Nonnegative Matrix Factorization".
+**Stack:** Gemini API, Spotify API, LangChain, Python, fly.io &nbsp;|&nbsp; 2025 – Present
 
-The method addresses a fundamental challenge in NMF: automatically determining the correct rank (number of components) without prior knowledge. SONNMF uses sum-of-norms (SON) regularization to encourage pairwise similarity between factor columns, enabling automatic rank discovery by starting with an overestimated rank and reducing it during optimization. 
+An agentic LLM classification pipeline that automatically organizes Spotify libraries by mood and genre. Built with Gemini and LangChain using multi-step reasoning with structured output (JSON schema enforcement) to ensure reliable, consistent categorization. Deployed to fly.io with live user testing.
+
+*Key techniques:* agentic tool use, structured output, prompt engineering, REST API integration, cloud deployment
+
+---
+
+### Sum-of-norms regularized NMF [[GitHub](https://github.com/waqasbinhamed/sonnmf)] [[Paper](https://doi.org/10.1162/NECO.a.1482)]
+
+**Stack:** Python, NumPy, SciPy &nbsp;|&nbsp; Published in *Neural Computation* (2026)
+
+An optimization algorithm that automatically discovers the correct number of latent components in high-dimensional data — solving the rank estimation problem that limits standard NMF. Learns sparse, interpretable structure from data with applications in signal decomposition, recommendation systems, and scientific computing.
+
+*Key techniques:* convex optimization, regularization, ablation studies, numerical benchmarking
 
 ---
 
 ### Nonnegative Unimodal Matrix Factorization [[GitHub](https://github.com/waqasbinhamed/numf)]
 
-Python implementation of Nonnegative Unimodal Matrix Factorization (NuMF), an NMF method that enforces unimodality constraints. NuMF is particularly useful for applications where the underlying data is expected to have a single peak (unimodal structure) and nonnegative values, such as in signal processing, bioinformatics, and chemometrics.
+**Stack:** Python, NumPy
 
-The implementation is based on the [Nonnegative Unimodal Matrix Factorization](https://ieeexplore.ieee.org/iel7/9413349/9413350/09414631.pdf) research paper. 
+Python implementation of NuMF, enforcing single-peak (unimodal) constraints on factorized components — useful for spectral analysis, bioinformatics, and signal processing where underlying patterns have natural peak structure.
 
-<!-- --- -->
+*Key techniques:* constrained optimization, scientific computing, numerical methods
+
+---
 
 ## Professional Projects
-
-*Projects completed during employment where I made key contributions.*
 
 ### [SYMX.AI X.Parts](https://symx.ai/product/xparts/)
 
 **Organization:** SYMX.AI (formerly Symboticware)
 
-An NLP system that transforms free-text maintenance logs into structured data, enabling fleet-wide analysis to reduce fuel costs and equipment downtime.
+An NLP system that transforms unstructured maintenance logs into structured, queryable data — enabling fleet-wide fault analysis to reduce equipment downtime and fuel costs.
 
-*My Contributions:* Developed the initial proof of concept, evaluated LLM models and selected the appropriate one, curated a domain-specific dataset for training, and built the first extraction algorithm.
+*My contributions:* Fine-tuned a DistilBERT classifier on domain-specific mining logs (~500 → ~5,000 training pairs via NLP augmentation), improving fault classification from ~50% to ~75% accuracy. Took the system from internal PoC to a shipped commercial product.
 
 ---
 
 ### [Intellistocks.ai](https://intellistocks.ai/)
 
 **Organization:** Big Byte Insights
-A financial analytics platform that applied NLP and predictive modeling to extract investment signals from social media activity and financial documents, including earnings calls and quarterly reports.
 
-*My Contributions:* Led core development efforts, trained sentiment analysis and named entity recognition (NER) models for text data, and contributed to designing the project’s data architecture.
+A financial analytics platform extracting investment signals from SEC filings, earnings calls, and social media using NLP and predictive modeling.
+
+*My contributions:* Built NLP ingestion pipelines processing 10+ GBs/day via REST API integrations; contributed to fine-tuning a financial sentiment classifier using HuggingFace Transformers.

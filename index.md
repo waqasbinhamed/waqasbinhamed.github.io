@@ -1,37 +1,45 @@
 ---
-layout: single
-author_profile: true
+layout: splash
+title: "Waqas Bin Hamed"
+header:
+  overlay_color: "#1b2631"
+  overlay_filter: 0.85
+  excerpt: "Data Scientist & ML Engineer &nbsp;·&nbsp; LLM systems · production ML · data infrastructure"
+  actions:
+    - label: "Projects"
+      url: "/projects/"
+    - label: "Resume"
+      url: "/resume/"
+    - label: "Get in Touch"
+      url: "mailto:waqasbinhamed@gmail.com"
 ---
 
-Welcome to my portfolio! I'm a data scientist with 3+ years of experience designing and deploying data analytics and AI driven systems across retail, customer intelligence, and industrial domains. I hold an MMath in Computational Mathematics from the University of Waterloo, and bring expertise across the data science lifecycle — from proof-of-concept to production-ready data and ML products.
+<div class="feature__wrapper" style="margin-top: 2em;">
 
-## Professional Focus
+<p>I build end-to-end ML systems — NLP classifiers, agentic LLM pipelines, and production data infrastructure — with a focus on shipping reliable, scalable solutions. Currently at <strong>The Home Depot</strong>, engineering event-driven GCP pipelines and ML-ready data products serving 180+ stores and 30,000+ associates.</p>
 
-My work blends research rigor depth with production-grade execution. I specialize in building scalable data and ML systems — ranging from efficient data pipelines to intelligent, real-world AI applications — that drive measurable impact across business functions.
+<p>Strong mathematical foundations (MMath, University of Waterloo; published in <em>Neural Computation</em>, 2026) applied to practical, high-impact ML work.</p>
 
-In my role at The Home Depot, I collaborate closely with technical teams and business stakeholders to design and build data systems that support decision-making at scale.
+</div>
 
-My work spans a variety of projects, including:
-- Using GenAI to help optimize SQL workflows and improve data efficiency across teams  
-- Building real-time data pipelines that provide performance insights for stores and leadership  
-- Developing analytics tools to support workforce planning and operational efficiency  
-- Ensuring the reliability of production systems by participating in support and monitoring rotations  
+## What I Work On
 
+- **LLM & Agentic AI** — agentic workflows, RAG pipelines, structured output enforcement, prompt engineering, tool orchestration
+- **ML & NLP** — transformer fine-tuning, classification, model evaluation frameworks, anomaly detection
+- **Data infrastructure** — event-driven ETL/ELT, BigQuery dimensional modeling, Airflow orchestration, dbt, DataOps
+- **Experimentation & analysis** — A/B testing, causal inference, statistical modeling applied to business decisions
 
-## Research & Technical Interests
+## Technical Stack
 
-I’m drawn to technically complex problems that lie at the intersection of machine learning, applied mathematics, and real-world complexity. My recent work, **Sum-of-norms regularized Nonnegative Matrix Factorization**, builds on my master’s research in Nonnegative Matrix Factorization, with a current preprint under review. I’m especially interested in domains where theoretical methods translate into impactful applications—such as physics-informed ML, scientific computing, and climate modeling.
+| Area | Tools |
+|---|---|
+| **Languages** | Python, SQL, Bash |
+| **ML / AI** | PyTorch, HuggingFace Transformers, scikit-learn, XGBoost, LangChain, Gemini API |
+| **Data & Cloud** | GCP (BigQuery, Composer, Pub/Sub, Vertex AI), AWS; Airflow, dbt, Terraform |
+| **MLOps & Serving** | MLflow, FastAPI, Docker, Looker, Git |
 
-## Tools & Technologies
+## Recent Highlights
 
-I work across the entire data science stack, with tools including:
-
-- **Languages**: Python, SQL, Bash, MATLAB  
-- **Data Science and ML/AI**: Pandas, NumPy, SciPy, PyTorch, Transformers, XGBoost 
-- **Cloud & Infrastructure**: AWS, GCP, BigQuery, Airflow, Docker, MLOps  
-
-## What Drives Me
-
-I enjoy building intelligent systems that not only solve complex problems, but also scale effectively and make a lasting impact. Whether it’s automating insights, improving decision-making, or deploying robust ML pipelines, I value solutions that are both technically sound and practically relevant.
-
-Feel free to explore my projects or get in touch. I'm always interested in discussing applications of data science and ML in both research and industry.
+- Engineered an agentic LLM classification system with structured output enforcement, deployed to production on fly.io
+- Redesigned 150+ SAP-to-GCP pipeline triggers to event-driven execution, eliminating data latency for ML workloads
+- Published in *Neural Computation* (2026): [Sum-of-norms regularized NMF](https://doi.org/10.1162/NECO.a.1482)
